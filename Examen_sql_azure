@@ -15,20 +15,19 @@ CREATE TABLE clientes (
 -- Insertar registros en la tabla clientes
 INSERT INTO clientes (id, nombre, email, fecha_registro)
 VALUES
-(1, 'Carlos García', 'carlos@ejemplo.com', '2024-11-23'),
-(2, 'María López', 'maria@ejemplo.com', '2024-11-22');
+(1, 'Itzel Ramirez', 'luna_rojita@icloud.com', '2024-11-23'),
+(2, 'Guadalupe Rpdriguez', 'lupitarodriguez@icloud.com', '2024-11-22');
 
 -- Mostrar todos los clientes registrados
 SELECT * FROM clientes;
 
 -- Actualizar el correo electrónico del cliente con id = 1
 UPDATE clientes
-SET email = 'carlos.garcia@nuevoemail.com'
+SET email = 'luna_rojita@icloud.com'
 WHERE id = 1;
 
 -- Mostrar los resultados después de la actualización
 SELECT * FROM clientes;
-
 
 -- Eliminar el registro del cliente con id = 2
 DELETE FROM clientes
