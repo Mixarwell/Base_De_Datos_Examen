@@ -1,10 +1,10 @@
--- Crear la base de datos
+-- Crear base de datos
 CREATE DATABASE clientes_db;
 
--- Seleccionar la base de datos
+-- Seleccionar base de datos
 USE clientes_db;
 
--- Crear la tabla clientes
+-- Crear tabla clientes
 CREATE TABLE clientes (
     id INT PRIMARY KEY,
     nombre VARCHAR(255),
